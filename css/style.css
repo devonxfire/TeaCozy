@@ -7,14 +7,18 @@ body {
 	opacity: 0.9;
 }
 
+
+/*
 div {
 	border: solid 2px red;
 }
+*/
 
 
 .content-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 
@@ -27,6 +31,8 @@ div {
 	background-color: black;
 	width: 100%;
 	align-items: center;
+	top: 0;
+	position: fixed;
 
 
 }
@@ -56,36 +62,159 @@ div {
 .mission-container {
 	height: 700px;
 	width: 1200px;
-	background-image: url(images/img-mission-background.jpg);
+	display: flex;
+	justify-content: center;
+	background-image: url(../images/img-mission-background.jpg);
 
-}
-
-.mission-image {
 	
+
+}
+
+
+.mission-overlay {
+	margin: auto;
 	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	
+}
+
+.heading {
+	margin: auto;
+}
+
+.sub-heading {
+	
+	text-align: center;
+
+}
+
+
+.teas-container {
+	width: 1000px;
+	margin: auto;
+
+}
+
+.tea-header {
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+
+.items-container {
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+
+.item-row-1 {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.item-row-2 {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	
+
 }
 
 
 
+.item {
+	
+}
+
+.item h4 {
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.item img {
+	width: 300px;
+	height: 200px;
+}
+
+#myrtle {
+	margin-right: 25px;
+}
+
+#bedford {
+	margin-left: 25px;
+}
+
+.locations-container {
+	height: 500px;
+	width: 1200px;
+	background-image: url(../images/img-locations-background.jpg);
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	margin-top: 50px;
+
+
+}
+
+.locations-header {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 15px;
+
+
+}
+
+
+.boxes-container {
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 60px;
+}
 
 
 
+.location-box {
+	background-color: black; 
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+
+}
+
+
+.bottom-content-container,
+.bottom-heading {
+	display: flex;
+	width: 1200px;
+	height: 200px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-heading {
+	padding-top: 35px;
+
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-container {
+	width: 100%;
+	margin-left: 20px;
+}
 
 
 
